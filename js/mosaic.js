@@ -1,7 +1,7 @@
 // mosaic.js
 (function(){
 
-$.fn.lunbotu = function(height , width , x , y , num_of_pics ,interval){
+$.fn.mosaic = function(height , width , x , y , num_of_pics ,interval){
 	//init
 	var _this = this;
 	$(_this).css({
